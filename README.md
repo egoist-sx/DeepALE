@@ -11,6 +11,6 @@ The target users are mainly the users of smart phone and smart glass/smart watch
 
 This software  recognise the sentence from users via Nauance Dragon mobile SDKs. Then the software would automatically recognise the nounces in the sentence, and try to tag the related objects of interest in the images and videos. The recognition part is powered by BING software and the DeepBeliefSDK (Google API).
 
-Please note that currently bounding box is pre-drawed by user, which further work should be done to integrate either sliding window or BING to propose bounding boxes, then feed each segment to cnn for classification.
+##Please note that currently bounding box is pre-drawed by user, which further work should be done to integrate either sliding window or BING to propose bounding boxes, then feed each segment to cnn for classification.
 
 Please also supply your own key for voice recognition SDK, which could be applied here http://nuancemobiledeveloper.com/
